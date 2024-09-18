@@ -2,7 +2,7 @@
 
 import { usePathname } from "next/navigation";
 import Link from "next/link";
-import { Button, Box, Flex, Text } from "@chakra-ui/react";
+import { Button, Flex, Text } from "@chakra-ui/react";
 import Image from "next/image";
 export function NavBar() {
   const pathname = usePathname();
@@ -23,7 +23,7 @@ export function NavBar() {
         <Image
           width="100"
           height="50"
-          src="https://docrdsfx76ssb.cloudfront.net/static/1726176683/pages/wp-content/uploads/2021/08/bitly_logo.svg"
+          src="/images/Home/bitly_logo.svg"
           alt="micor tiny url logo"
         />
         {/* <Flex gap="5">

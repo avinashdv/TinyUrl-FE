@@ -1,19 +1,12 @@
 "use client";
 
-import { usePathname } from "next/navigation";
-import Link from "next/link";
 import {
   Menu,
   MenuButton,
   MenuList,
   MenuItem,
-  MenuItemOption,
-  MenuGroup,
-  MenuOptionGroup,
   MenuDivider,
-  Box,
 } from "@chakra-ui/react";
-import Image from "next/image";
 import { ChevronDownIcon } from "@chakra-ui/icons";
 
 interface Props {
@@ -21,8 +14,6 @@ interface Props {
 }
 
 const MenuLink: React.FC<Props> = ({ title }) => {
-  const pathname = usePathname();
-
   return (
     <Menu>
       <MenuButton

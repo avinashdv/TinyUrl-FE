@@ -1,5 +1,4 @@
 import { extendTheme } from "@chakra-ui/react";
-import { Open_Sans } from "next/font/google";
 
 const theme = extendTheme({
   fonts: {

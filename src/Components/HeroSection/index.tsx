@@ -1,21 +1,14 @@
 "use client";
 
-import { usePathname } from "next/navigation";
-import Link from "next/link";
 import {
-  Button,
-  Box,
   Flex,
   Text,
   InputGroup,
   Input,
   InputRightAddon,
 } from "@chakra-ui/react";
-import Image from "next/image";
 
 const HeroSection = () => {
-  const pathname = usePathname();
-
   return (
     <Flex
       maxW="1000px"
@@ -23,8 +16,7 @@ const HeroSection = () => {
       mt="8%"
       alignItems={"center"}
       justify={"space-between"}
-      bgImage={`url(
-        https://docrdsfx76ssb.cloudfront.net/static/1726176683/pages/wp-content/themes/JointsWP-CSS-master/assets/images/stars.svg)`}
+      bgImage={`url(/images/Home/stars.svg)`}
       bgRepeat={"no-repeat"}
       bgSize={"auto"}
       bgPosition={"center 22px"}
